@@ -1,20 +1,16 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Navbar from "./pages/components/Navbar.tsx"
+import { BrowserRouter } from "react-router-dom";
+import Navbar from "./pages/components/Navbar.tsx";
 import RoutesIndex from "./routes.tsx";
 
-
 function App() {
-
   return (
-    <div>
-      <BrowserRouter basename="/">
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<RoutesIndex />}/>
-          </Routes>
+    <div className="text-[#E0D9D9] bg-[#121213] " >
+      <BrowserRouter basename="">
+        <Navbar />
+        <RoutesIndex />
       </BrowserRouter>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

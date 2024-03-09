@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: Square721;
+    src: url(./assets/fonts/Square_721_Regular.otf);
+}
+
+@font-face {
+    font-family: Square721bt;
+    src: url(./assets/fonts/SQR721B.TTF);
+}
+
+
+h1, .square{
+    font-family: Square721;
+}
+
+.squarebt{
+    font-family: Square721bt;
+}
