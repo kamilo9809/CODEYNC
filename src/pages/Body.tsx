@@ -6,7 +6,7 @@ import Section_5 from "./components/screens/Section_5"
 
 const Body = () => {
   return (
-    <div className="overflow-x-hidden" >
+    <div className="" >
       <Section_1/>
       <Section_2/>
       <Section_3/>
