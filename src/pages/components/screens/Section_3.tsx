@@ -7,7 +7,7 @@ import autodom from "./../../../assets/image/autodom.jpg";
 
 const Section_3 = () => {
   return (
-    <div className="h-auto relative">
+    <div className="h-auto relative mb-80">
       <img
         className="absolute left-0 -top-[500px] pointer-events-none"
         src={polygon_5}

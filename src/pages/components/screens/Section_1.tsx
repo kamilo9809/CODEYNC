@@ -30,7 +30,7 @@ const Section_1 = () => {
       </div>
       <div className="relative w-full flex justify-center mt-20">
         <ButtonLogin
-          direction="#contact"
+          direction="#contacto"
           className="absolute -bottom-12 border-l-2 border-b-2 border-r-1 z-10 border-[#E0D9D9]  py-2 rounded-l-xl rounded-r-xl ps-10 px-12"
           content="START A PROJECT"
         />

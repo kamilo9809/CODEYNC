@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      'oxanium': ['Oxanium', 'sans-serif'], // Agrega 'MiFuente' como la primera opción en la pila de fuentes sans-serif
+      'oxanium': ['Oxanium', 'sans-serif'],
+      'Audiowide': ['Audiowide', 'sans-serif']
     },
   },
   plugins: [],
