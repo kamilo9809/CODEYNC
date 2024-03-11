@@ -19,6 +19,9 @@ const Form = ({
 }) => {
 
 
+  console.log(initialFormData);
+  
+
   return (
     <div className={className}>
       {data.map((form, index) => (

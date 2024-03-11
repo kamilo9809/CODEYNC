@@ -5,6 +5,11 @@ import polygon_6 from "./../../../assets/designs/poligono_6.svg";
 import  { useState } from "react";
 import data from "./../../../utilities/json/form";
 
+type FormDataType = {
+  dato: string;
+  value: string;
+};
+
 const Section_4 = () => {
   const initialFormData: FormDataType[] = data.map((item) => ({
     dato: item.dato,

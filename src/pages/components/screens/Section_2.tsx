@@ -1,4 +1,4 @@
-import Cards_services from "../cards_services";
+import Cards_services from "../Cards_services";
 import polygon_3 from "./../../../assets/designs/poligono_3.svg";
 import polygon_4 from "./../../../assets/designs/poligono_4.svg";
 import icon_1 from "./../../../assets/icons/icon_1.svg";
