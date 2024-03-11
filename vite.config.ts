@@ -12,13 +12,5 @@ export default defineConfig({
         additionalData: `@import "@primer/css/index.scss";`,
       },
     },
-    modules: {
-      resolveHref: (id, css) => {
-        if (id.startsWith('primeicons/')) {
-          return new URL(`../node_modules/${id}`, import.meta.url).toString();
-        }
-        return id;
-      },
-    },
   },
 })
