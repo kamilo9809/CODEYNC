@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const navOptions = NavbarData;
   return (
-    <div className="flex w-full h-16 ">
+    <nav className="flex w-full h-16 ">
       <Link className="flex items-center w-3/12" to="/">
         <img className="ms-6" src={logo} alt="log" />
       </Link>
@@ -25,7 +25,7 @@ const Navbar = () => {
         />
         <div className="absolute -top-16 right-0 bg-gradient-to-b from-[#325358] to-[#325358] rounded-full z-32 w-32 h-20 blur-3xl pointer-events-none "></div>
       </div>
-    </div>
+    </nav>
   );
 };
 
