@@ -1,6 +1,5 @@
 import enlace from "./../../assets/icons/enlace.svg";
 
-
 const Cards_services = ({
   className_1,
   className_2,
@@ -15,31 +14,38 @@ const Cards_services = ({
   className_2: string;
   icon_1: string;
   icon_2: string;
-  title_1:string;
-  title_2:string;
-  content_1:string;
-  content_2:string;
+  title_1: string;
+  title_2: string;
+  content_1: string;
+  content_2: string;
 }) => {
   return (
-    <div className="flex flex-col gap-20">
-      <div className={className_1}>
-        <img src={icon_1} alt="icono" />
+    <div className="flex flex-col gap-12 sm:gap-16">
+      {/* CARD 1 */}
+      <div className={`${className_1} text-center`}>
+        <img src={icon_1} alt="icono" className="w-16 sm:w-20 mb-4" />
         <div>
-          <h2 className="w-full text-center font-bold py-6" >{title_1}</h2>
-          <p className="text-center mb-10" >{content_1}</p>
+          <h2 className="text-lg sm:text-xl font-bold py-4">{title_1}</h2>
+          <p className="text-sm sm:text-base mb-6">{content_1}</p>
         </div>
         <a href="#">
-            <img src={enlace} alt="" />
+          <img src={enlace} alt="enlace" className="w-6 sm:w-8" />
         </a>
       </div>
-      <div className={className_2}>
-        <img className="absolute -top-6 left-40" src={icon_2} alt="icono" />
+
+      {/* CARD 2 */}
+      <div className={`${className_2} text-center`}>
+        <img
+          className="absolute -top-6 left-1/2 -translate-x-1/2 w-16 sm:w-20"
+          src={icon_2}
+          alt="icono"
+        />
         <div>
-          <h2 className="font-bold text-center py-5 pt-20" >{title_2}</h2>
-          <p className="text-center">{content_2}</p>
+          <h2 className="text-lg sm:text-xl font-bold py-6 pt-16">{title_2}</h2>
+          <p className="text-sm sm:text-base">{content_2}</p>
         </div>
         <a href="#">
-            <img src={enlace} alt="" />
+          <img src={enlace} alt="enlace" className="w-6 sm:w-8" />
         </a>
       </div>
     </div>

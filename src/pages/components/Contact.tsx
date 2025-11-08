@@ -10,20 +10,16 @@ const Contact = ({className}:{className:string;}) => {
 
   const contactOptions = [
     {
-        "image":icon_ubication,
-        "text" :"Cra 39 a calle 39c 04 interior 109"
-    },
-    {
         "image":icon_world,
         "text" :"Medellin, Colombia"
     },
     {
         "image":icon_phone,
-        "text" :"+57 323 8554708"
+        "text" :"+57 3023060543"
     },
     {
         "image":icon_email,
-        "text" :"codeync.booking@gmail.com"
+        "text" :"info@codeync.co"
     }
 ]
 

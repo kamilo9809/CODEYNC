@@ -4,7 +4,7 @@ const Card_work = ({
   type,
   work,
   href,
-  stylebg
+  stylebg,
 }: {
   image: string;
   title: string;
@@ -14,25 +14,32 @@ const Card_work = ({
   stylebg: string;
 }) => {
   return (
-    <div
-      className={'w-full h-[600px]'}
-      style={{
-        background: `url(${image})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        opacity: "50px"
-      }}
-    >
-      <a className={`w-full h-full relative z-20 ${stylebg}`} href={href} target="_blank">
-        <div className="uppercase w-full h-full flex flex-col justify-between py-5 px-8 ">
-          <h3>{title}</h3>
-          <div className="flex">
-            <p>{type}</p>
-            <p>|</p>
-            <p>{work}</p>
+    <div className="bg-[#58585869] rounded-3xl flex justify-center items-center">
+      <div
+        className={"w-full h-[500px]"}
+        style={{
+          background: `url(${image})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "100% 360px",
+          backgroundPosition: "center",
+          opacity: "50px",
+        }}
+      >
+        <a
+          className={`w-full h-full relative z-20 ${stylebg}`}
+          href={href}
+          target="_blank"
+        >
+          <div className="uppercase w-full h-full flex flex-col justify-between items-center py-5 px-8 ">
+            <h3>{title}</h3>
+            <div className="flex">
+              <p>{type}</p>
+              <p>|</p>
+              <p>{work}</p>
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
     </div>
   );
 };

@@ -21,3 +21,26 @@ h1, .square{
 .squarebt{
     font-family: Square721bt;
 }
+
+/* en tu globals.css o styles.css */
+.mask-fade {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 15%,
+    black 85%,
+    transparent 100%
+  );
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 15%,
+    black 85%,
+    transparent 100%
+  );
+  mask-repeat: no-repeat;
+  mask-size: cover;
+}

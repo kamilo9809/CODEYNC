@@ -27,7 +27,7 @@ const Form = ({
       {data.map((form, index) => (
         <div key={index}>
           <input
-            className="bg-transparent border-b-2 border-[#E0D9D9CC] w-full"
+            className="bg-transparent border-b-2 border-[#E0D9D9CC] w-full focus:outline-none focus:ring-0"
             type="text"
             name={form.dato}
             id={form.dato}
