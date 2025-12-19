@@ -1,5 +1,3 @@
-import enlace from "./../../assets/icons/enlace.svg";
-
 const Cards_services = ({
   className_1,
   className_2,
