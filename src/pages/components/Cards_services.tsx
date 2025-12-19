@@ -28,9 +28,6 @@ const Cards_services = ({
           <h2 className="text-lg sm:text-xl font-bold py-4">{title_1}</h2>
           <p className="text-sm sm:text-base mb-6">{content_1}</p>
         </div>
-        <a href="#">
-          <img src={enlace} alt="enlace" className="w-6 sm:w-8" />
-        </a>
       </div>
 
       {/* CARD 2 */}
@@ -44,9 +41,6 @@ const Cards_services = ({
           <h2 className="text-lg sm:text-xl font-bold py-6 pt-16">{title_2}</h2>
           <p className="text-sm sm:text-base">{content_2}</p>
         </div>
-        <a href="#">
-          <img src={enlace} alt="enlace" className="w-6 sm:w-8" />
-        </a>
       </div>
     </div>
   );

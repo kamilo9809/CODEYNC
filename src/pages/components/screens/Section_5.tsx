@@ -50,7 +50,7 @@ const Section_5 = () => {
               </a>
             </div>
           </div>
-          <div className="w-full lg:mt-[280px] mt-10 font-oxanium flex flex-col lg:justify-end lg:items-end  text-base">
+          <div className="w-full lg:mt-[280px] mt-10 font-oxanium flex flex-col lg:justify-end lg:items-end  text-base pr-32">
             <div className="w-9/12 flex flex-col gap-4">
                 <Link to="">Políticas y Privacidad</Link>
                 <Link to="">Términos y  Condiciones</Link>

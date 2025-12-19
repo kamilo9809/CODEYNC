@@ -21,8 +21,8 @@ const Section_2 = () => {
           <p className="sm:w-8/12 text-sm sm:text-base lg:text-lg">
             Utilizamos las mejores prácticas de desarrollo, implementamos
             rigurosos controles de calidad y nos esforzamos por ofrecer
-            soluciones digitales que no solo cumplen sino que superan las
-            expectativas de nuestros clientes.
+            <strong>soluciones digitales que no solo cumplen sino que superan las
+            expectativas de nuestros clientes.</strong> 
           </p>
           <h2 className="hidden sm:flex w-1/12 text-6xl lg:text-8xl opacity-20 justify-center items-end">
             “
@@ -37,7 +37,7 @@ const Section_2 = () => {
           src={polygon_4}
           alt="poligono 4"
         />
-        <h2 className="text-center lg:text-left lg:top-32 text-2xl sm:text-3xl lg:text-[40px] mb-10 lg:mb-0">
+        <h2 className="text-center lg:top-32 text-2xl sm:text-3xl lg:text-[40px] mb-10 lg:mb-0">
           Servicios Destacados
         </h2>
         <div className="lg:absolute lg:right-28 lg:top-28 text-sm sm:text-base font-oxanium text-center lg:text-right mb-6 lg:mb-0">

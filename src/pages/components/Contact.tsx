@@ -1,4 +1,3 @@
-import icon_ubication from './../../assets/icons/icon_ubication.svg'
 import icon_world from './../../assets/icons/icon_world.svg'
 import icon_phone from './../../assets/icons/icon_phone.svg'
 import icon_email from './../../assets/icons/icon_email.svg'
